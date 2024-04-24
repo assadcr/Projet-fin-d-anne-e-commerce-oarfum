@@ -1,6 +1,108 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
+}
+
+
+main{
+    background-color: #fcf1f1;
+}
+.logo{
+    width: 80%;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    min-height: 60px;
+    background-color:#ecdeed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+ 
+}
+
+nav > a {
+    text-decoration: none;
+    color: white; 
+}
+img{
+    width: 30px;
+    height: 20px;
+
+   }
+
+  .carousel-slide{
+    display: flex;
+  }
+
+  .carousel-slide,h1{
+    left: 50%;
+    top: 50%;
+  }
+  .carousel-slide img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   
+  }
+
+.image-main img {
+    height: 150px;
+    width: 150px;
+    margin-right: 83px;
+    padding: 35px;
+      
+}
+
+p{
+    text-align: center;
+    padding: 27px;
+    font-style: Helvetica;
+    font-size: 20px;
+
+
+}
+.paragraphe2>p{
+    text-decoration: none;
+    padding: 100px;
+    font-size: 15px;
+}
+
+.logo2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer>p{
+    text-align: left;
+   
+}
+footer{
+    background: #fbcdcd;
+    padding: 20px;
+    background: #fbcdcd;
+
+}
+.logoAppli>img{
+    gap: 20px;
+}
+.separateur{
+    width: 120%;
+    height: 2px;
+    background-color: black;
+}
+.li{
+    padding: 35px;
+}
+.logo3{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 15px;
+    height: 30px;
 }
