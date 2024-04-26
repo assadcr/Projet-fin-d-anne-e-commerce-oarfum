@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+nav{
+    background-color:#ecdeed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px; 
+}
+
+
+.logo{
+    width: 70px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+nav > a {
+    text-decoration: none;
+    color: white; 
+}

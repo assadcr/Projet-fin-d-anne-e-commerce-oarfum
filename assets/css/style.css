@@ -21,7 +21,7 @@ nav{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
+    padding: 15px;
     font-family: Arial, sans-serif;
  
 }
@@ -70,8 +70,11 @@ p{
 }
 .paragraphe2>p{
     text-decoration: none;
-    padding: 100px;
-    font-size: 15px;
+    font-size: 14px;
+    border: 2px solid #0f0f0f; 
+    padding: 30px;
+    margin: 30px; 
+     
 }
 
 .logo2{
@@ -91,7 +94,9 @@ footer{
 
 }
 .logoAppli>img{
-    gap: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 .separateur{
     width: 120%;

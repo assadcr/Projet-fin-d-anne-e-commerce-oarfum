@@ -10,14 +10,60 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 30px; 
+    padding: 15px; 
 }
 
 
 .logo{
     width: 70px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
 }
 nav > a {
     text-decoration: none;
     color: white; 
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width:400px) {
+  
 }
