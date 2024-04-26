@@ -3,14 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
-    min-height: 60px;
-    background-color:#ecdeed;
-    }
-.logo{
-    width: 80%;
-    min-height: 80px;
-    display: flex;
-    justify-content: center;
 
+
+nav{
+    background-color:#ecdeed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px; 
+}
+
+
+.logo{
+    width: 70px;
+}
+nav > a {
+    text-decoration: none;
+    color: white; 
+}
+
+section>H2{
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+figure{
+    display:flex;
+    justify-content:center;
+    padding: 30px;
+    color: rgb(8, 6, 1);
+    background-color: #fcf1f1
+}
+
+figcaption{
+    padding: 20px;
+
+}
+
+footer{
+    background: #fbcdcd;
+    padding: 20px;
+
+}
+/* .logoAppli>img{
+    display: flex;
+    gap: 200px;
+} */
+.separateur{
+    width: 120%;
+    height: 2px;
+    background-color: black;
+}
+.li{
+    padding: 35px;
+}
+.logo3{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 15px;
+    height: 30px;
+}
+
+@media (max-width:400px) {
+  
 }

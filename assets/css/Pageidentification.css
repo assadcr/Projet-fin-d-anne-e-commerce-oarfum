@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+nav{
+    background-color:#ecdeed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px; 
+}
+
+
+.logo{
+    width: 70px;
+}
+nav > a {
+    text-decoration: none;
+    color: white; 
+}
