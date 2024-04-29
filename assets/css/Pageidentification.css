@@ -26,44 +26,57 @@ nav > a {
 }
 
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+#inscriptionForm {
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    color: #333;
+    font-family:  Helvetica, sans-serif;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    width: calc(100% - 40px);
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    color: #555;
+    font-size: 16px;
+    transition: border-bottom-color 0.3s;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-bottom-color: #ff7eb9; 
+}
+
 
 input[type="submit"] {
     width: 100%;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 12px;
     border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
+    border-radius: 25px;
+    background-color: #ff7eb9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-
-@media (max-width:400px) {
-  
+    background-color: #ecdeed; 
 }

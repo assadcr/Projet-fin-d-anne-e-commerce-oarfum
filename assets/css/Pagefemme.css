@@ -28,12 +28,51 @@ nav > a {
     color: white; 
 }
 
-section>H2{
+H2{
     padding: 30px;
     text-align: center;
     font-size: 25px;
 
 }
+
+.sectionhero img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 1, 1, 0.1); 
+    
+    
+
+}
+.sectionhero2 img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 1, 1, 0.1); 
+  
+}
+
+
+/* Animation pour la section "Nos parfums Femme" */
+.sectionhero img {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.sectionhero img:hover {
+    transform: scale(1.1); 
+}
+
+.sectionhero2 img {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.sectionhero2 img:hover {
+    transform: rotate(360deg); 
+}
+
+
+
+
 
 figure{
     display:flex;
