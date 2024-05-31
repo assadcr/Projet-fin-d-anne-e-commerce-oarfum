@@ -14,6 +14,13 @@ main{
     display: flex;
     justify-content: center;
 }
+h2{
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 nav{
     min-height: 60px;
     background-color:#ecdeed;
@@ -26,7 +33,7 @@ nav{
  
 }
 nav a {
-    color: #c8707045;
+    color: #fcf1f1;
     text-decoration: none;
     padding: 15px; 
 }
@@ -43,22 +50,7 @@ img{
     height: 20px;
 
    }
-   .carousel-slide {
-    position: relative;
-    width: 100%;
-    height: 280vh;
-    overflow: hidden;
-}
 
-.carousel-slide img {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    animation: carousel-animation 10s infinite;
-}
 
 @keyframes carousel-animation {
     0% { opacity: 0; }
@@ -67,35 +59,24 @@ img{
     100% { opacity: 0; }
 }
 
-.carousel-slide img:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.carousel-slide img:nth-child(2) {
-    animation-delay: 5s;
-}
-
-.carousel-slide img:nth-child(3) {
-    animation-delay: 10s;
-}
 
  
-
-
 .image-main img {
     height: 200px;
-    width: 151px;
-    margin-right: 83px;
-    padding: 35px;
+    width: 200px;
+    padding: 35px; 
     border-radius: 50%;
+    display: block;
+    justify-content: space-around;
+    margin: auto;
       
 }
 
 p{
     text-align: center;
-    padding: 27px;
+    padding: 30px;
     font-style: Helvetica;
-    font-size: 20px;
+    font-size: 15px;
 
 
 }
@@ -113,9 +94,12 @@ p{
     justify-content: space-around;
     padding: 10px;
 }
-
-.footer>p{
-    text-align: left;
+.logo2>figure{
+    padding: px;
+}
+.footer>p,h3{
+    text-align: center;
+    padding: 20px;
    
 }
 footer{
@@ -124,11 +108,18 @@ footer{
     background: #fbcdcd;
 
 }
-.logoAppli>img{
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+.img-accueil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.img-accueil img {
+    width: 250px; /* Ajustez cette valeur selon vos besoins */
+    height: auto; /* Pour garder le ratio de l'image */
+    margin: 0 10px; /* Espacement entre les images */
+}
+
 .separateur{
     width: 120%;
     height: 2px;

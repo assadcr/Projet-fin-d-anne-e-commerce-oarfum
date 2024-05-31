@@ -21,11 +21,18 @@ nav{
     display: flex;
     justify-content: center;
     
-
 }
+
 nav > a {
     text-decoration: none;
     color: white; 
+}
+
+.carousel-item>img{
+    display: block;
+    justify-content: space-around;
+    margin: auto;
+    
 }
 
 H2{
@@ -45,7 +52,7 @@ H2{
 
 }
 .sectionhero2 img {
-    max-width: 100%; 
+    max-width: 60%; 
     height: auto; 
     border-radius: 50%; 
     box-shadow: 0 0 10px rgba(0, 1, 1, 0.1); 
@@ -66,10 +73,10 @@ H2{
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
-.sectionhero2 img:hover {
+/* .sectionhero2 img:hover {
     transform: rotate(360deg); 
 }
-
+ */
 
 
 
